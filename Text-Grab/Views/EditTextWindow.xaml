@@ -168,6 +168,16 @@
                     Click="FontMenuItem_Click"
                     Header="_Font..." />
             </MenuItem>
+            <MenuItem Header="_Capture" >
+                <MenuItem
+                    x:Name="FullScreenMenuItem"
+                    Header="_Fullscreen Grab"
+                    Click="FullScreenMenuItem_Click" />
+                <MenuItem
+                    x:Name="GrabFrameMenuItem"
+                    Header="_Grab Frame"
+                    Click="GrabFrameMenuItem_Click" />
+            </MenuItem>
             <MenuItem Header="_Window">
                 <MenuItem
                     x:Name="AlwaysOnTop"
